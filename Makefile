@@ -14,5 +14,5 @@ CONTAINER_NAME = outlook-oauth2-proxy
 
 build:
 	docker build -f Dockerfile -t $(DOCKER_REPOSITORY)/$(CONTAINER_NAME):$(VERSION) .
-	#docker push $(DOCKER_REPOSITORY)/$(CONTAINER_NAME):$(VERSION)
+	docker push $(DOCKER_REPOSITORY)/$(CONTAINER_NAME):$(VERSION)
 
