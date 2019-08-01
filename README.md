@@ -4,7 +4,7 @@ A project for building a docker image of https://github.com/outlook/oauth2_proxy
 Use the Azure AD groups feature until its implemented in the [official](https://github.com/pusher/oauth2_proxy) oauth2_proxy project
 ## Usage
 ```
-docker run -it --rm -p 8080:8080 gramal/outlook-oauth2-proxy:v2.2.1-alpha \
+docker run -it --rm -p 8080:8080 gramal/outlook-oauth2-proxy:latest \
   -client-id='YOUR_CLIENT_ID' \
   -client-secret='YOUR_CLIENT_SECRET' \
   -provider=azure \
